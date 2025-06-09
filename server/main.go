@@ -16,6 +16,7 @@ func handleConnection(conn net.Conn) {
 		message, err := reader.ReadString('\n')
 		if err != nil {
 			fmt.Println("Error reading:", err)
+
 			break
 		}
 
