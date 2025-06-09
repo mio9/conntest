@@ -1,0 +1,15 @@
+# Ignore all executable files
+*.exe
+*.out
+*.bin
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.lib
+*.a
+*.pyc
+__pycache__/
+*.pdb
+*.class
