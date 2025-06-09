@@ -11,7 +11,7 @@ var conn net.Conn
 var msg_id uint16 = 0
 
 func connectToServer() net.Conn {
-	conn, err := net.Dial("tcp", "localhost:8080")
+	conn, err := net.Dial("tcp", "172.28.10.1:8080")
 	if err != nil {
 		fmt.Println("Error connecting to server:", err)
 		return nil
